@@ -1,0 +1,112 @@
+.el-menu--horizontal .el-menu-item:not(.is-disabled):focus, .el-menu--horizontal .el-menu-item:not(.is-disabled):hover {
+    color: #8DAFFC;
+}
+.el-menu-item.is-active {
+    border-color: #8DAFFC;
+    color: #8DAFFC;
+}
+.el-menu--horizontal {
+    border: none;
+}
+.el-dropdown-menu__item:focus, .el-dropdown-menu__item:not(.is-disabled):hover {
+    background-color: #f4f7ff;
+    color: #8DAFFC;
+}
+.el-icon-female {
+    color: #F696D5;
+}
+.el-icon-male {
+    color: #A2B9EE;
+}
+.el-input.is-active .el-input__inner, .el-input__inner:focus {
+    border-color: #8DAFFC;
+}
+.el-button--primary {
+    background-color: #8DAFFC;
+    border-color: #8DAFFC;
+}
+.el-button--primary:focus, .el-button--primary:hover {
+    background-color: #A2B9EE;
+    border-color: #A2B9EE;
+}
+.el-button:focus, .el-button:hover {
+    color: #fff;
+    border-color: #739eff;
+    background-color: #739eff;
+}
+.el-tabs--border-card>.el-tabs__header {
+    background-color: #f4f7ff;
+}
+.el-tabs--border-card>.el-tabs__header .el-tabs__item:not(.is-disabled):hover {
+    color: #8DAFFC;
+}
+.el-tabs--border-card>.el-tabs__header .el-tabs__item.is-active {
+    color: #8DAFFC;
+}
+.el-radio__input.is-checked+.el-radio__label {
+    color: #8DAFFC;
+}
+.el-radio__input.is-checked .el-radio__inner {
+    border-color: #8DAFFC;
+    background: #8DAFFC;
+}
+.el-radio.is-bordered.is-checked {
+    border-color: #8DAFFC;
+}
+.el-menu-item:focus, .el-menu-item:hover {
+    background-color: #f4f7ff;
+}
+.el-button.is-plain:focus, .el-button.is-plain:hover {
+    border-color: #8DAFFC;
+    color: #8DAFFC;
+}
+.el-tag {
+    border: 1px solid #8DAFFC;
+    background-color: #f4f7ff;
+    color: #8DAFFC;
+    height: 25px;
+    line-height: 25px;
+}
+.el-textarea__inner:focus {
+    border-color: #8DAFFC;
+}
+.el-pagination button:hover {
+    color: #8DAFFC;
+}
+.el-pager li.active {
+    color: #8DAFFC;
+}
+.el-pager li:hover {
+    color: #8DAFFC;
+}
+.el-button--primary.is-disabled, .el-button--primary.is-disabled:active, .el-button--primary.is-disabled:focus, .el-button--primary.is-disabled:hover {
+    background-color: #c6d7fe;
+    border-color: #c6d7fe;
+}
+.el-pagination.is-background .el-pager li:not(.disabled):hover {
+    color: #8DAFFC;
+}
+.el-pagination.is-background .el-pager li:not(.disabled).active {
+    background-color: #8DAFFC;
+    color: #fff;
+}
+.el-button--danger {
+    background-color: #F696D5;
+    border-color: #F696D5;
+}
+.el-button--danger:focus, .el-button--danger:hover {
+    background: #f780ce;
+    border-color: #f780ce;
+}
+.el-tabs__active-bar {
+    background-color: #8DAFFC;
+}
+.el-tabs__item.is-active {
+    color: #8DAFFC;
+}
+.el-tabs__item:hover {
+    color: #8DAFFC;
+}
+.el-select-dropdown__item.selected {
+    color: #8DAFFC;
+}
