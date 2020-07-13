@@ -1,0 +1,38 @@
+[uWSGI] getting INI configuration from /home/meme/master/ZhiFou/uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Dec 24 20:01:31 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 28 November 2019 08:04:00
+os: Linux-3.10.0-957.el7.x86_64 #1 SMP Thu Nov 8 23:39:32 UTC 2018
+nodename: localhost.localdomain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /home/meme/master/ZhiFou
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/meme/master/ZhiFou
+your processes number limit is 1024000
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024000
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8070 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Aug  7 2019, 17:28:10)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x2347940
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x2347940 pid: 11894 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 11894)
+spawned uWSGI worker 1 (pid: 11897, cores: 1)
+[pid: 11897|app: 0|req: 1/1] 192.168.174.83 () {42 vars in 1004 bytes} [Tue Dec 24 20:01:50 2019] GET /zhifou/users/login => generated 49 bytes in 871 msecs (HTTP/1.1 200) 4 headers in 122 bytes (1 switches on core 0)
